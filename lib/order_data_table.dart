@@ -66,7 +66,8 @@ class _OrderDataTableState extends State<OrderDataTable> {
                                   .map(
                                     (_) => ListTile(
                                       title: Text(
-                                          '${_.id}    ${_.customer.target?.name}    \$${_.price}'),
+                                        '${_.id}    ${_.customer.target?.name}    \$${_.price}',
+                                      ),
                                     ),
                                   )
                                   .toList(),

@@ -1,12 +1,9 @@
 import 'dart:io';
-
 import 'package:faker/faker.dart';
 import 'package:flutter/material.dart';
-import 'package:objectbox/objectbox.dart';
 import 'package:objectbox_tutorial/objectbox.g.dart';
 import 'package:path_provider/path_provider.dart';
 import 'package:path/path.dart';
-
 import 'entities.dart';
 import 'order_data_table.dart';
 
